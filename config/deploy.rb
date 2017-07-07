@@ -1,6 +1,6 @@
 # config valid only for Capistrano 3.1
 lock '3.8.2'
-server '54.202.20.27', roles: [:web, :app, :db], primary: true
+#server '54.202.20.27', roles: [:web, :app, :db], primary: true
 set :application, 'myapp'
 set :user, 'deploy'
 set :repo_url, 'git@github.com:iankesh/myapp.git'
