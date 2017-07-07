@@ -14,7 +14,7 @@
 # definition into the server list. The second argument
 # something that quacks like a hash can be used to set
 # extended properties on the server.
-#set :stage, :production
+set :stage, :production
 server '54.202.20.27', user: 'deploy', roles: %w{app db web}
 #server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
 

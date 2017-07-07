@@ -2,13 +2,13 @@
 lock '3.8.2'
 #server '54.202.20.27', roles: [:web, :app, :db], primary: true
 set :application, 'myapp'
-set :user, 'deploy'
+#set :user, 'deploy'
 set :repo_url, 'git@github.com:iankesh/myapp.git'
 
-set :pty,             true
-set :use_sudo,        false
-set :stage,           :production
-set :deploy_via,      :remote_cache
+#set :pty,             true
+#set :use_sudo,        false
+#set :stage,           :production
+#set :deploy_via,      :remote_cache
 set :deploy_to, '/home/deploy/myapp'
 
 set :linked_files, %w{config/database.yml}
