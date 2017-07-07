@@ -1,6 +1,6 @@
 production:
   adapter: postgresql
-  host: 54.202.20.27
+  host: localhost
   database: my_app_name_production
   username: deploy
   password: Ankesh76626
