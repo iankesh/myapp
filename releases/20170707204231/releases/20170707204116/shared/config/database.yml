@@ -1,8 +1,0 @@
-production:
-  adapter: postgresql
-  host: localhost
-  database: my_app_name_production
-  username: deploy
-  password: Ankesh76626
-  encoding: unicode
-  pool: 5
