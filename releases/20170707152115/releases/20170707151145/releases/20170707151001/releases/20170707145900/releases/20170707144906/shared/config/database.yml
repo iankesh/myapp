@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  host: 54.202.20.27
+  database: my_app_name_production
+  username: deploy
+  password: Ankesh76626
+  encoding: unicode
+  pool: 5
